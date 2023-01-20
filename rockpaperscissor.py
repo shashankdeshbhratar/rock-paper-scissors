@@ -10,6 +10,8 @@ elif player_choice == 1 and computer_choice == 0:
     print("You win")
 elif player_choice == 2 and computer_choice == 1:
     print("You win")
+elif player_choice == 2 and computer_choice == 0:
+    print("You lose")
 elif computer_choice > player_choice:
     print("You lose")
 elif computer_choice == player_choice:
